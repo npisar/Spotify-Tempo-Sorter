@@ -3,7 +3,7 @@ Simple Python script written using Spotipy to find the bpm of songs based on a s
 
 
 # Setup
-For the program to work, you'll need 3 values that you should paste into commands.txt
+For the program to work, you'll need 2 values that you should paste into [commands.txt](docs/commands.txt)
 
 First and foremost, however, you will need to install the Spotipy Python library.
 Find instructions for that [here](https://spotipy.readthedocs.io/en/2.24.0/#installation)
@@ -15,4 +15,9 @@ Go to [the developer site](https://developer.spotify.com/) and log in with your 
 Once you log in, go to your [dashboard](https://developer.spotify.com/dashboard) and create an app.
 <img width="1512" alt="Create Spotify App" src="https://github.com/user-attachments/assets/3f5dad1a-c2c3-4593-bea3-dd6251f8b0d7">
 
-Once you choose a name and description, copy and paste the Client ID and Client Secret into [commands.txt](docs/CONTRIBUTING.md)
+Once you choose a name and description, copy and paste the Client ID and Client Secret into [commands.txt](docs/commands.txt)
+
+# Using the program
+With that, you're ready to go! Open the file, and make sure to pass the Client ID, Client Secret, and Redirect URL (already provided in the commands file).
+Please see this video for a quick demonstration of how to use the script!
+[![YouTube video showing how to use script](https://img.youtube.com/vi/MBo_uSkI2pM/0.jpg)](https://www.youtube.com/watch?v=MBo_uSkI2pM)
