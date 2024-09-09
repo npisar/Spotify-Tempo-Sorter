@@ -1,5 +1,5 @@
 # Spotify-Tempo-Sorter
-Simple Python script written using Spotipy to find the bpm of songs based on a search query
+A simple Python script written using Spotipy to find the bpm of songs based on a search query
 
 
 # Setup
