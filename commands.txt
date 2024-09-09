@@ -1,0 +1,20 @@
+python3 -m venv virtual-env
+source virtual-env/bin/activate
+python3 -m pip install spotipy --upgrade pip
+SPOTIPY_CLIENT_ID = "bea87ce349f042618f1a4c0dd17d2420"
+SPOTIPY_CLIENT_SECRET = "dd01c96c579d47f49c12fd3b0766fb56"
+SPOTIPY_REDIRECT_URL = "http://localhost:8888/callback"
+
+# start the virtual environment
+source virtual-env/bin/activate
+
+# set the ID's
+export SPOTIPY_CLIENT_ID=<your Spotify app's client ID here>
+export SPOTIPY_CLIENT_SECRET=<your Spotify app's client secret>
+export SPOTIPY_REDIRECT_URL=http://localhost:8888/callback
+
+echo $SPOTIPY_CLIENT_ID
+echo $SPOTIPY_CLIENT_SECRET
+echo $SPOTIPY_REDIRECT_URL
+
+# spotify user ID: <your Spotify user ID (right click on your name on your profile) here>
