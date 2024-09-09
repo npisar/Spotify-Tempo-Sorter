@@ -19,5 +19,5 @@ Once you choose a name and description, copy and paste the Client ID and Client 
 
 # Using the program
 With that, you're ready to go! Open the file, and make sure to pass the Client ID, Client Secret, and Redirect URL (already provided in the commands file).
-Please see this video for a quick demonstration of how to use the script!
+Please click on the video below for a quick demonstration of how to use the script!
 [![YouTube video showing how to use script](https://img.youtube.com/vi/MBo_uSkI2pM/0.jpg)](https://www.youtube.com/watch?v=MBo_uSkI2pM)
